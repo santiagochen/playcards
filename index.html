@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>PlayCards</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a id="cardmaster"> click to get new card </a>
+
+<div class="cardcont">
+All the cards you have:
+<ul id="container"></ul>
+</div>
+
+<div class="cardbin">
+cards rubbish:
+<ul id="bin"></ul>
+</div>
+
+
+<script id="myTemplate" type="text/x-jquery-tmpl">  
+    <li>  
+    <span class="name">${Number}</span>  
+    <span class="suit">${Suit}</span>  
+    </li>
+</script> 
+<script src="jquery-1.11.0.min.js"></script>
+<script src="jquery.tmpl.min.js"></script>
+<script src="main.js"></script>
+
+
+</body>
+</html>

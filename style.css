@@ -1,0 +1,17 @@
+
+
+li{display: inline-block; width: 80px; height: 100px; background: #ccc; border:solid 1px #000; cursor: pointer;z-index: 10;}
+li span{font-size: 16px; color: #333; display: block; text-align: right;}
+
+.Spade span{color: #000;}
+.Hearts span{color: #f3715c;}
+.Clubs span{color: #000;}
+.Diamonds span{color: #f3715c;}
+
+#cardmaster{margin:10px; padding:5px;display: block; width: 80px; height: 100px; background: #ccc999; border:solid 1px #000; cursor: pointer; float: left;}
+
+.cardcont{float: left; }
+#container{width: 250px; height: auto;min-height: 120px; border:solid 1px #ccc; margin: 10px 0; padding:0;}
+
+.cardbin{float: right; }
+#bin{width: 250px; height: auto;min-height: 120px; border:solid 1px #ccc; margin: 10px 0; padding:0;}
